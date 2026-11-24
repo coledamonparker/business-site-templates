@@ -1,0 +1,131 @@
+{
+  "archetype": "brick-and-mortar",
+  "theme": {
+    "fontPreset": "industrial",
+    "primaryColor": "#B81D24",
+    "primaryHover": "#8F141A",
+    "primarySoft": "#FDECEC",
+    "accentColor": "#EF2B33",
+    "darkColor": "#121417",
+    "surfaceDark": "#1C2026"
+  },
+  "business": {
+    "name": "C&M Custom Auto & Tire",
+    "wordmarkHtml": "<strong>C&amp;M</strong> CUSTOM AUTO &amp; TIRE",
+    "logo": "images/logo-nav.png",
+    "topBadge": "REDMOND, OR",
+    "address": "1520 NW 6th St, Redmond, OR 97756",
+    "phone": "(541) 548-5544",
+    "hoursSummary": "Mon–Fri: 8:30 AM – 5:00 PM • Sat: 9:00 AM – 2:00 PM",
+    "recipientEmail": "service@khaoskustom.com",
+    "primaryCtaLabel": "Request Quote",
+    "seoSubtitle": "Redmond, OR — Tires, Wheels, Suspension & Alignments",
+    "metaDescription": "C&M Custom Auto & Tire in Redmond, Oregon. Tires, custom wheels, 4x4 suspension lifts, precision alignments, auto repair, and driveline fabrication.",
+    "googleMapsUrl": "https://www.google.com/maps/place/C%26M+CUSTOM+AUTO+AND+TIRE/@44.2903113,-121.1736752,17z"
+  },
+  "hero": {
+    "headline": "REDMOND'S TRUSTED",
+    "highlight": "CUSTOM AUTO & TIRE SHOP",
+    "subtitle": "Family-owned and operated at 1520 NW 6th St. From wheels, tires, and precision alignments to 4x4 suspension lifts, driveline fabrication, and full auto repair.",
+    "image": "images/logo-sign.png",
+    "isSignShowcase": true,
+    "captionLeft": "WE FABRICATE, BALANCE & REPAIR DRIVELINES",
+    "captionRight": "KPD Khaos Performance Drivelines"
+  },
+  "metrics": [
+    { "value": "4.8 ★★★★★", "label": "147 Verified Google Reviews" },
+    { "value": "Same-Day", "label": "Tire & Wheel Packages" },
+    { "value": "Hunter & Dannmar", "label": "Precision Alignment Racks" },
+    { "value": "In-House KPD", "label": "Driveline Fabrication & Balancing" }
+  ],
+  "servicesEyebrow": "WHAT WE DO",
+  "servicesTitle": "FULL-SERVICE AUTO, TIRE & 4X4 SPECIALISTS",
+  "servicesSubtitle": "Built on honest service, competitive pricing, and state-of-the-art shop equipment.",
+  "services": [
+    {
+      "code": "01",
+      "slug": "tires-wheels",
+      "title": "Tires & Custom Wheels",
+      "summary": "Same-day mounting, balancing, flat repair, and rotation. Authorized dealer for Toyo, Nitto, Falken, BFGoodrich, and Yokohama.",
+      "hasDetailPage": true,
+      "essentials": ["Vehicle Year, Make & Model", "Current Tire Size (e.g. 285/70R17)", "Preferred Brand or Terrain Type", "Target Appointment Day"],
+      "orderFields": [
+        { "name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 2022 Ford F-250 4x4" },
+        { "name": "Tire_Size_or_Wheel_Diameter", "label": "Tire Size / Wheel Specs", "required": true, "placeholder": "e.g. 35x12.50R20 or 275/70R18" },
+        { "name": "Preferred_Date", "label": "Preferred Service Date", "type": "date" }
+      ]
+    },
+    {
+      "code": "02",
+      "slug": "alignments",
+      "title": "Precision Alignments",
+      "summary": "Equipped with high-precision Hunter & Dannmar alignment racks for lifted trucks, 4x4 rigs, daily drivers, and classic muscle cars.",
+      "hasDetailPage": true,
+      "essentials": ["Vehicle Year, Make & Model", "Stock or Lifted Suspension?", "Tire Wear or Pulling Symptoms", "Preferred Drop-Off Day"],
+      "orderFields": [
+        { "name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model)", "required": true, "placeholder": "e.g. 1979 Corvette / 2021 Tacoma" },
+        { "name": "Suspension_Setup", "label": "Suspension Setup", "type": "select", "options": ["Factory / Stock Height", "Leveling Kit (1-2.5 in)", "Full Suspension Lift (3+ in)", "Lowered / Performance"] },
+        { "name": "Preferred_Date", "label": "Preferred Alignment Date", "type": "date" }
+      ]
+    },
+    {
+      "code": "03",
+      "slug": "suspension-lifts",
+      "title": "Suspension & Lift Kits",
+      "summary": "Leveling kits, full 4x4 suspension lifts, shocks, struts, steering upgrades, and heavy-duty truck & offroad accessories.",
+      "hasDetailPage": true
+    },
+    {
+      "code": "04",
+      "slug": "drivelines",
+      "title": "Driveline Fabrication & Balancing",
+      "summary": "Home of KPD (Khaos Performance Drivelines) — in-house driveline fabrication, high-speed balancing, and repair."
+    }
+  ],
+  "productsEyebrow": "SHOP PACKAGES",
+  "productsTitle": "POPULAR TIRE & SERVICE PACKAGES",
+  "products": [
+    {
+      "id": "pkg-alignment",
+      "name": "4-Wheel Precision Laser Alignment",
+      "price": 129.00,
+      "badge": "Most Popular",
+      "description": "Complete Hunter laser alignment inspection and adjustment for cars, SUVs, and pickups.",
+      "features": ["Front & Rear Camber, Caster & Toe", "Steering Wheel Centering", "Suspension & Tie-Rod Check"],
+      "ctaLabel": "Book Package ($129)"
+    },
+    {
+      "id": "pkg-leveling",
+      "name": "Truck Front Leveling Kit + Alignment",
+      "price": 649.00,
+      "badge": "4x4 Special",
+      "description": "Front leveling kit installation plus full post-lift 4-wheel alignment.",
+      "features": ["2-Inch to 2.5-Inch Front Level", "Clears Larger Off-Road Tires", "Includes Full Alignment"],
+      "ctaLabel": "Order Package ($649)"
+    }
+  ],
+  "orderForm": {
+    "enabled": true,
+    "ctaLabel": "Schedule Service",
+    "pageTitle": "Schedule Service or Request Quote",
+    "pageSubtitle": "Select your service type below and we will confirm your appointment.",
+    "dropdownLabel": "What service does your vehicle need?"
+  },
+  "reviews": {
+    "rating": "4.8",
+    "countText": "147 Google Maps Reviews",
+    "headline": "Rated 4.8 Stars by Central Oregon Drivers",
+    "items": [
+      { "name": "Sarah A", "meta": "Local Guide • Google Review", "text": "This family owned business is wonderful! I got my alignment done there today and they had the best price in town. They also have a really cool lobby with racing merch!" },
+      { "name": "Paul Corbin", "meta": "Local Guide • Google Review", "text": "Great place with honest and friendly staff...recommend 100% ... specially if you have a 4x4 ... tires, suspension and other goodies." },
+      { "name": "wrangler howe", "meta": "Verified Reviewer • Google Review", "text": "Best experience I’ve ever had buying wheels and tires they ordered everything I dropped off the pickup and it was done same day won’t go anywhere else." }
+    ]
+  },
+  "galleryTitle": "Around the Shop in Redmond",
+  "gallery": [
+    { "image": "images/sign.jpg", "caption": "Roadside Sign & Shop on NW 6th St", "category": "shop" },
+    { "image": "images/review-truck-wheels.jpg", "caption": "Same-Day Pickup Wheels & Tires", "category": "trucks" },
+    { "image": "images/alignment-rack.jpg", "caption": "Precision Hunter Alignment Lift", "category": "bays" },
+    { "image": "images/lobby-tires.jpg", "caption": "Showroom & Racing Lobby", "category": "shop" }
+  ]
+}

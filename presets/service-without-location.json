@@ -1,0 +1,160 @@
+{
+  "archetype": "service-mobile",
+  "theme": {
+    "fontPreset": "modern",
+    "primaryColor": "#0F766E",
+    "primaryHover": "#115E59",
+    "primarySoft": "#F0FDFA",
+    "accentColor": "#F59E0B",
+    "darkColor": "#0F172A",
+    "surfaceDark": "#090D16"
+  },
+  "business": {
+    "name": "Apex Mobile Detailing & Ceramic Coating",
+    "wordmarkHtml": "<strong>APEX</strong> MOBILE DETAILING",
+    "tagline": "WE BRING THE SHOWROOM TO YOUR DRIVEWAY",
+    "topBadge": "100% MOBILE • FULLY EQUIPPED VAN",
+    "serviceAreaSummary": "Serving Greater San Diego, La Jolla, Del Mar, Encinitas & Carlsbad",
+    "serviceAreas": ["San Diego", "La Jolla", "Del Mar", "Carmel Valley", "Encinitas", "Carlsbad", "Rancho Santa Fe"],
+    "phone": "(858) 555-0148",
+    "hoursSummary": "7 Days a Week: 7:00 AM – 6:00 PM",
+    "recipientEmail": "bookings@apexmobiledetail.com",
+    "primaryCtaLabel": "Book Mobile Service",
+    "seoSubtitle": "Mobile Auto Detailing, Paint Correction & Ceramic Coating",
+    "metaDescription": "On-site mobile detailing, paint correction, and 5-year ceramic coating at your home or office. Serving San Diego & North County."
+  },
+  "hero": {
+    "headline": "Showroom Detailing & Ceramic Coating",
+    "highlight": "At Your Driveway.",
+    "subtitle": "Our self-contained mobile vans bring deionized spot-free water, on-board power, and studio-grade paint correction directly to your home or office.",
+    "image": "images/after-detail.svg",
+    "isSignShowcase": false,
+    "captionLeft": "Spot-Free Deionized Water & Power On-Board",
+    "captionRight": "Licensed & Insured Mobile Techs"
+  },
+  "metrics": [
+    { "value": "5.0 ★★★★★", "label": "210+ Verified Google Reviews" },
+    { "value": "100% Mobile", "label": "Own Power & Spot-Free Water" },
+    { "value": "5-Year Warranty", "label": "Certified Ceramic Coatings" },
+    { "value": "Same-Week", "label": "Driveway & Office Appointments" }
+  ],
+  "servicesEyebrow": "Mobile Services",
+  "servicesTitle": "We Come to Your Home or Office",
+  "servicesSubtitle": "Every service includes our spot-free deionized water rinse and eco-safe products.",
+  "services": [
+    {
+      "code": "01",
+      "slug": "full-interior-exterior",
+      "title": "Full Interior & Exterior Restoration",
+      "summary": "Deep steam sanitization, leather conditioning, clay-bar decontamination, and hydrophobic Carnauba/SiO2 sealant.",
+      "priceText": "From $249",
+      "hasDetailPage": true,
+      "essentials": ["Vehicle Year, Make & Model", "Service Address (Home or Office Driveway)", "Access to Parking Space", "Preferred Day & Time Window"],
+      "orderFields": [
+        { "name": "Service_Address_and_ZIP", "label": "Driveway / Office Service Address & ZIP", "required": true, "placeholder": "Street Address, City, ZIP" },
+        { "name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model & Size)", "required": true, "placeholder": "e.g. 2024 Porsche 911 / Tesla Model Y" },
+        { "name": "Preferred_Date", "label": "Preferred Service Date", "type": "date", "required": true },
+        { "name": "Pet_Hair_or_Stains", "label": "Interior Condition Notes", "type": "select", "options": ["Standard Maintenance", "Heavy Pet Hair Removal Needed", "Deep Stain / Spill Extraction Needed"] }
+      ]
+    },
+    {
+      "code": "02",
+      "slug": "paint-correction-ceramic",
+      "title": "Paint Correction & 5-Year Ceramic Coating",
+      "summary": "Multi-stage machine polishing to remove 85–95% of swirl marks followed by a 9H graphene/ceramic coating.",
+      "priceText": "From $799",
+      "hasDetailPage": true,
+      "essentials": ["Vehicle Year, Make, Model & Color", "Service Address (Garage or Covered Carport Preferred)", "Paint Swirl / Scratch Condition", "Preferred Appointment Date"],
+      "orderFields": [
+        { "name": "Service_Address_and_ZIP", "label": "Service Address & ZIP", "required": true, "placeholder": "Street Address, City, ZIP" },
+        { "name": "Vehicle_Year_Make_Model", "label": "Vehicle (Year, Make, Model & Paint Color)", "required": true, "placeholder": "e.g. 2023 BMW M3 — Black Sapphire" },
+        { "name": "Coating_Tier", "label": "Ceramic Coating Package", "type": "select", "options": ["2-Year Ceramic + 1-Step Polish ($799)", "5-Year Ceramic + 2-Step Correction ($1,199)", "Wheel & Caliper Ceramic Add-On (+$199)"] },
+        { "name": "Preferred_Date", "label": "Preferred Date", "type": "date", "required": true }
+      ]
+    },
+    {
+      "code": "03",
+      "slug": "headlight-engine-bay",
+      "title": "Headlight Restoration & Engine Bay Detail",
+      "summary": "Wet-sand UV oxidation removal with clear ceramic UV lock, plus safe low-pressure engine bay degreasing and dressing.",
+      "priceText": "From $129",
+      "hasDetailPage": true
+    }
+  ],
+  "beforeAfter": [
+    {
+      "title": "2-Stage Paint Correction & Ceramic Coating",
+      "description": "Heavy wash swirls and oxidation removed to restore a deep mirror reflection.",
+      "beforeImage": "images/before-detail.svg",
+      "afterImage": "images/after-detail.svg",
+      "beforeLabel": "Swirls & Oxidation (Before)",
+      "afterLabel": "Mirror Ceramic Finish (After)"
+    },
+    {
+      "title": "Interior Leather & Carpet Steam Extraction",
+      "description": "Full hot-water extraction and matte OEM leather restoration.",
+      "beforeImage": "images/before-interior.svg",
+      "afterImage": "images/after-interior.svg",
+      "beforeLabel": "Stained Interior (Before)",
+      "afterLabel": "Sanitized & Restored (After)"
+    }
+  ],
+  "productsEyebrow": "INSTANT PACKAGE BOOKING",
+  "productsTitle": "Purchase a Detailing Package Online",
+  "productsSubtitle": "Add any mobile detailing package or gift certificate to your order.",
+  "products": [
+    {
+      "id": "pkg-signature",
+      "name": "Signature Inside & Out Mobile Detail",
+      "price": 249.00,
+      "badge": "Best Seller",
+      "image": "images/after-detail.svg",
+      "description": "Complete 3-hour mobile restoration at your home or workplace.",
+      "features": ["Deionized Foam Wash & Clay Bar", "6-Month SiO2 Paint Sealant", "Full Interior Steam & Leather Conditioning"],
+      "ctaLabel": "Add Package to Order ($249)"
+    },
+    {
+      "id": "pkg-ceramic",
+      "name": "1-Step Polish + 3-Year Ceramic Coating",
+      "price": 799.00,
+      "badge": "Pro Protection",
+      "image": "images/after-interior.svg",
+      "description": "Machine gloss enhancement plus hydrophobic 9H ceramic coating on paint and glass.",
+      "features": ["Removes 75%+ of Swirl Marks", "3-Year Hydrophobic Ceramic Coating", "Windshield Rain-Repellent Coating"],
+      "ctaLabel": "Add Package to Order ($799)"
+    },
+    {
+      "id": "pkg-gift",
+      "name": "Digital Gift Certificate — Full Detail",
+      "price": 249.00,
+      "badge": "Gift Card",
+      "image": "images/after-detail.svg",
+      "description": "Redeemable anywhere in our San Diego & North County service area.",
+      "features": ["Instant Email Delivery", "Never Expires", "Covers Any Sedan, Coupe, or Mid-Size SUV"],
+      "ctaLabel": "Buy Gift Certificate ($249)"
+    }
+  ],
+  "orderForm": {
+    "enabled": true,
+    "ctaLabel": "Book Mobile Service",
+    "pageTitle": "Book Mobile Service at Your Location",
+    "pageSubtitle": "Enter your service address and vehicle details below. We bring our own water and power.",
+    "dropdownLabel": "Which mobile service would you like to book?"
+  },
+  "reviews": {
+    "rating": "5.0",
+    "countText": "214 Google Reviews",
+    "headline": "5.0-Star Rated Across San Diego & North County",
+    "items": [
+      { "name": "Marcus T.", "meta": "La Jolla • Google Review", "text": "They showed up right on time at my office parking lot with their own water and power. My Porsche looks better than the day I picked it up from the dealership." },
+      { "name": "Elena R.", "meta": "Carmel Valley • Google Review", "text": "Booked the Full Interior & Exterior package online in two minutes. They got every bit of beach sand and dog hair out of our SUV!" },
+      { "name": "David K.", "meta": "Encinitas • Google Review", "text": "The before and after difference on my black truck’s paint is unreal. Zero swirl marks left and water beads right off the ceramic coating." }
+    ]
+  },
+  "galleryTitle": "Recent Mobile Projects",
+  "gallery": [
+    { "image": "images/after-detail.svg", "caption": "5-Year Ceramic Coating — La Jolla", "category": "exterior" },
+    { "image": "images/after-interior.svg", "caption": "Leather & Alcantara Steam Restoration — Del Mar", "category": "interior" },
+    { "image": "images/before-detail.svg", "caption": "Paint Decontamination & Clay Prep — Encinitas", "category": "exterior" }
+  ]
+}

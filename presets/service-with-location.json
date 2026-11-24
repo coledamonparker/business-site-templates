@@ -1,0 +1,141 @@
+{
+  "archetype": "service-location",
+  "theme": {
+    "fontPreset": "editorial",
+    "primaryColor": "#1B7A8C",
+    "primaryHover": "#146170",
+    "primarySoft": "#EDF8FA",
+    "accentColor": "#B89B5E",
+    "darkColor": "#231F1A",
+    "surfaceDark": "#181613"
+  },
+  "business": {
+    "name": "First Fidelity Escrow, Inc.",
+    "wordmarkHtml": "<strong>FIRST FIDELITY</strong> ESCROW",
+    "logo": "images/favicon.png",
+    "tagline": "TRUST • FIDELITY • NEUTRALITY • SECURITY",
+    "topBadge": "CA DFPI License #9632697",
+    "address": "12636 High Bluff Dr. #400, San Diego, CA 92130",
+    "phone": "(858) 724-2146",
+    "hoursSummary": "Mon–Fri: 9:00 AM – 5:00 PM",
+    "recipientEmail": "orders@ffescrow.com",
+    "primaryCtaLabel": "Open Escrow",
+    "seoSubtitle": "San Diego, CA — Independent Escrow Services",
+    "metaDescription": "First Fidelity Escrow, Inc. in San Diego, CA (12636 High Bluff Dr. #400). Independent escrow company for residential, commercial, refinance, 1031 exchanges, and FSBO.",
+    "googleMapsUrl": "https://www.google.com/maps/place/First+Fidelity+Escrow/@32.9476333,-117.2519938,15z",
+    "legalNote": "© 2026 First Fidelity Escrow, Inc. Licensed by the Department of Business Oversight • License #9632697"
+  },
+  "hero": {
+    "headline": "Independent Escrow Built on",
+    "highlight": "Trust, Fidelity & Security.",
+    "subtitle": "First Fidelity Escrow delivers meticulous, responsive real estate closings across California — from residential purchases, refinances, and 1031 exchanges to commercial, construction, and For Sale By Owner transactions.",
+    "image": "images/hero-signing.jpg",
+    "isSignShowcase": false,
+    "captionLeft": "Founded 2014 • 20+ Years Experience",
+    "captionRight": "DFPI License #9632697"
+  },
+  "metrics": [
+    { "value": "20+ Years", "label": "Senior Escrow Leadership" },
+    { "value": "5.0 ★★★★★", "label": "Verified Google Maps Rating" },
+    { "value": "100% Independent", "label": "CA DFPI License #9632697" },
+    { "value": "2-Minute Intake", "label": "Direct Routing to orders@ffescrow.com" }
+  ],
+  "servicesEyebrow": "Comprehensive Escrow Services",
+  "servicesTitle": "Select Your Transaction Type",
+  "servicesSubtitle": "Click any service below to see a quick overview and open an order for that specific transaction type.",
+  "services": [
+    {
+      "code": "01",
+      "slug": "residential-purchase",
+      "title": "Residential Purchase & Resale",
+      "summary": "Smooth, accurate closings for home buyers, sellers, and top-producing real estate agents across San Diego and California.",
+      "hasDetailPage": true,
+      "essentials": ["Property Address & Purchase Price", "Target Close Date & Earnest Money Deposit", "Buyer & Seller Names and Contact Info", "Real Estate Agent & Lender Contact"],
+      "orderFields": [
+        { "name": "Property_Address", "label": "Property Address", "required": true, "placeholder": "12636 High Bluff Dr #400, San Diego, CA 92130" },
+        { "name": "Sale_Price", "label": "Sale Price ($)", "required": true, "placeholder": "e.g. $1,250,000" },
+        { "name": "Target_Close_Date", "label": "Target Closing Date", "type": "date" },
+        { "name": "Buyer_Name_and_Contact", "label": "Buyer Name(s) & Email/Phone", "required": true, "placeholder": "John & Mary Smith — john@example.com" },
+        { "name": "Seller_Name_and_Contact", "label": "Seller Name(s) & Email/Phone", "placeholder": "Robert Davis — seller@example.com" },
+        { "name": "Agent_and_Brokerage", "label": "Real Estate Agent & Brokerage", "placeholder": "Agent Name & Brokerage" }
+      ]
+    },
+    {
+      "code": "02",
+      "slug": "refinance-reverse",
+      "title": "Refinance & Reverse Mortgages",
+      "summary": "High-volume, accurate loan closing coordination trusted by top mortgage lenders, loan officers, and homeowners.",
+      "hasDetailPage": true,
+      "essentials": ["Property Address & New Loan Amount", "Target Funding Date", "Borrower Name, Email & Phone", "Submitting Loan Officer & Existing Payoff Lender"],
+      "orderFields": [
+        { "name": "Property_Address", "label": "Property Address", "required": true, "placeholder": "Street, City, CA ZIP" },
+        { "name": "New_Loan_Amount", "label": "New Loan Amount ($)", "required": true, "placeholder": "e.g. $850,000" },
+        { "name": "Borrower_Name_and_Contact", "label": "Borrower Name(s), Email & Phone", "required": true, "placeholder": "Borrower Name & Contact" },
+        { "name": "Submitting_Lender", "label": "Submitting Lender / Loan Officer", "required": true, "placeholder": "Lender & Loan Officer Name" },
+        { "name": "Existing_Payoff_Lender", "label": "Current Lender Being Paid Off", "placeholder": "e.g. Wells Fargo / Chase" }
+      ]
+    },
+    {
+      "code": "03",
+      "slug": "commercial-construction",
+      "title": "Commercial & Construction Escrows",
+      "summary": "Dedicated escrow administration for commercial real estate acquisitions, construction disbursements, and complex deals.",
+      "hasDetailPage": true
+    },
+    {
+      "code": "04",
+      "slug": "1031-exchange",
+      "title": "1031 Tax-Deferred Exchanges",
+      "summary": "Coordinated timelines with Qualified Intermediaries to protect tax-deferred proceeds and meet strict identification rules.",
+      "hasDetailPage": true
+    },
+    {
+      "code": "05",
+      "slug": "fsbo",
+      "title": "For Sale By Owner (FSBO)",
+      "summary": "Patient, step-by-step guidance that makes the escrow process transparent, neutral, and easy to understand for direct buyers and sellers.",
+      "hasDetailPage": true
+    },
+    {
+      "code": "06",
+      "slug": "short-sales-carryback",
+      "title": "Short Sales & Seller Carry-Backs",
+      "summary": "Seasoned expertise navigating lender payoff approvals, short sale packages, and custom seller-financed carry-back structures.",
+      "hasDetailPage": true
+    }
+  ],
+  "about": {
+    "eyebrow": "About First Fidelity Escrow",
+    "headline": "Over Two Decades of Trusted Escrow Leadership",
+    "image": "images/melissa-carson.jpg",
+    "personName": "Melissa Carson",
+    "personTitle": "Founder, Owner & Senior Escrow Officer",
+    "paragraphs": [
+      "First Fidelity Escrow is an independent escrow company founded in 2014 by Melissa Carson. With more than 20 years of escrow experience, Melissa partners with many of the highest-producing real estate agents and mortgage lenders in the nation.",
+      "Alongside Senior Escrow Officer Nina Latham and Darianne Brewer, our team treats every client like family — answering questions promptly, verifying every detail, and ensuring smooth, stress-free closings."
+    ]
+  },
+  "orderForm": {
+    "enabled": true,
+    "ctaLabel": "Open Escrow",
+    "pageTitle": "Open an Escrow Order",
+    "pageSubtitle": "Enter the basic transaction details below. Sent directly to orders@ffescrow.com.",
+    "dropdownLabel": "What type of escrow are you opening?"
+  },
+  "reviews": {
+    "rating": "5.0",
+    "countText": "5.0 Stars on Google Maps",
+    "headline": "5.0-Star Rated by Buyers, Sellers, Agents & Lenders",
+    "items": [
+      { "name": "Debbie Dykstra", "meta": "Local Guide • Google Review", "text": "Darianne Brewer and Nina Latham made my selling experience so easy. The day I went in to sign my paperwork, I met with Nina and it was like meeting with an old friend." },
+      { "name": "Eric D", "meta": "Local Guide • Google Review", "text": "Outstanding Escrow Service — Best in the Business! Working with Nina is hands down the best experience I’ve ever had with a title and escrow company." },
+      { "name": "Shawn Davis", "meta": "Local Guide • Google Review", "text": "Melissa and First Fidelity were great to work with. She is very quick to reply and answers questions very professionally." }
+    ]
+  },
+  "galleryTitle": "Corporate Plaza Two • Suite 400",
+  "gallery": [
+    { "image": "images/reception.jpg", "caption": "Suite 400 Reception & Closing Conference Room", "category": "office" },
+    { "image": "images/building-12636.jpg", "caption": "12636 High Bluff Dr Exterior (Google Maps)", "category": "exterior" },
+    { "image": "images/plaza-courtyard.jpg", "caption": "Corporate Plaza Two Courtyard (Google Maps)", "category": "exterior" }
+  ]
+}
